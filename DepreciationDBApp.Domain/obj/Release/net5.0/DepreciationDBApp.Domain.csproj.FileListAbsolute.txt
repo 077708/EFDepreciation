@@ -1,0 +1,15 @@
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\bin\Release\net5.0\DepreciationDBApp.Domain.deps.json
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\bin\Release\net5.0\DepreciationDBApp.Domain.runtimeconfig.json
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\bin\Release\net5.0\DepreciationDBApp.Domain.runtimeconfig.dev.json
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\bin\Release\net5.0\DepreciationDBApp.Domain.dll
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\bin\Release\net5.0\DepreciationDBApp.Domain.pdb
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.AssemblyInfo.cs
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.dll
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\refint\DepreciationDBApp.Domain.dll
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.pdb
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\DepreciationDBApp.Domain.genruntimeconfig.cache
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp.Domain\obj\Release\net5.0\ref\DepreciationDBApp.Domain.dll
