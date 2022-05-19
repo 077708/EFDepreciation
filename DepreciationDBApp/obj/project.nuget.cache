@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7F20tRRiJPuLQKpXbYJkryhGDZeZvybV83oa3wTwYqZmRlD937OTvWUwWrPj2ovbaJIZZAUHVNtRizdepct3WQ==",
+  "dgSpecHash": "RsT5Ykm1EZYkJqWS/6DDdbEugKVyQWJPA4f/yfmnAoK0rE5gSy0vXnFZaqJDgj0gFs1PBe6ORtiELELUilpf1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Paulo Mayorga\\OneDrive\\Escritorio\\Economía\\DepreciationDBApp-2M3\\DepreciationDBApp\\DepreciationDBApp.Forms.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\rjcodeadvance.rjcontrols\\1.0.0\\rjcodeadvance.rjcontrols.1.0.0.nupkg.sha512",
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
@@ -120,5 +121,16 @@
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Paulo Mayorga\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"RJCodeAdvance.RJControls 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "RJCodeAdvance.RJControls",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }

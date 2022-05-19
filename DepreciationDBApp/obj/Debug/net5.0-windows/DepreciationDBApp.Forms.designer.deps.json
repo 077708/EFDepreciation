@@ -668,6 +668,14 @@
           }
         }
       },
+      "RJCodeAdvance.RJControls/1.0.0": {
+        "runtime": {
+          "lib/net45/RJCodeAdvance.RJControls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "5.0.0",
@@ -1972,6 +1980,13 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
+    },
+    "RJCodeAdvance.RJControls/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O+drkZ7lKfMdRRgXKiy2Z/ENhU5Ee2j2mXSzHWwEN2thtRDrWjoUpUvUm9gSFX8susKj1yeVmtMG3qYeNBvmBw==",
+      "path": "rjcodeadvance.rjcontrols/1.0.0",
+      "hashPath": "rjcodeadvance.rjcontrols.1.0.0.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

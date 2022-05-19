@@ -257,6 +257,10 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "RJCodeAdvance.RJControls": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

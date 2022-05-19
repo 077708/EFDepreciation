@@ -1,5 +1,6 @@
 ﻿using DepreciationDBApp.Applications.Interfaces;
 using DepreciationDBApp.Domain.Entities;
+using DepreciationDBApp.Forms.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,24 +25,6 @@ namespace DepreciationDBApp.Forms
             InitializeComponent();
         }
 
-        private void btnAddAsset_Click(object sender, EventArgs e)
-        {
-            Asset asset = new Asset()
-            {
-                Name = "Monitor",
-                Description = "Dell 24 pulgadas 4k",
-                Amount = 22433.33M,
-                AmountResidual = 0,
-                Terms = 2,
-                Code = Guid.NewGuid().ToString(),
-                Status = "Disponible",
-                IsActive = true
-            };
-
-            assetService.Create(asset);
-            LoadDataGridView();
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             LoadDataGridView();
@@ -49,7 +32,48 @@ namespace DepreciationDBApp.Forms
 
         private void LoadDataGridView()
         {
-            dgvAsset.DataSource = assetService.GetAll();
+            dgvEmployee.DataSource = employeeService.GetAll();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtName__TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Employee employee = new Employee()
+                {
+                    Names = txtName.Texts,
+                    Lastnames = txtLastNames.Texts,
+                    Address = txtAddress.Texts,
+                    Email = txtEmail.Texts,
+                    Dni = txtDni.Texts,
+                    Phone = txtPhone.Texts,
+                    Status = txtStatus.Texts,
+                };
+
+                employeeService.Create(employee);
+                LoadDataGridView();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Mensaje de error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void dgvEmployee_Click(object sender, EventArgs e)
+        {
+            FrmAssets frmHistory = new FrmAssets(this.assetService, this.employeeService);
+            frmHistory.ShowDialog();
         }
     }
 }

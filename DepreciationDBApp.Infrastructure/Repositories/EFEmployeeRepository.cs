@@ -233,10 +233,10 @@ namespace DepreciationDBApp.Infrastructure.Repositories
                 throw new ArgumentNullException("El objeto employee no puede ser null.");
             }
 
-            if (string.IsNullOrWhiteSpace(employee.Email))
+            /*if (string.IsNullOrWhiteSpace(employee.Email))
             {
                 throw new Exception("El email no puede ser null o vacio.");
-            }
+            }*/
 
             if (string.IsNullOrWhiteSpace(employee.Names))
             {

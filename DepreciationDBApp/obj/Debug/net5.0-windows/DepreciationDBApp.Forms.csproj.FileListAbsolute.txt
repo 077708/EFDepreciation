@@ -79,4 +79,5 @@ C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\Depre
 C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp\obj\Debug\net5.0-windows\DepreciationDBApp.Forms.pdb
 C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp\obj\Debug\net5.0-windows\DepreciationDBApp.Forms.genruntimeconfig.cache
 C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp\obj\Debug\net5.0-windows\ref\DepreciationDBApp.Forms.dll
-C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp\obj\Debug\net5.0-windows\DepreciationDBApp.Forms.Test.resources
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp\bin\Debug\net5.0-windows\RJCodeAdvance.RJControls.dll
+C:\Users\Paulo Mayorga\OneDrive\Escritorio\Economía\DepreciationDBApp-2M3\DepreciationDBApp\obj\Debug\net5.0-windows\DepreciationDBApp.Forms.Forms.FrmAssets.resources

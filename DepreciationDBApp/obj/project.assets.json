@@ -731,6 +731,15 @@
           "lib/netstandard1.3/Newtonsoft.Json.dll": {}
         }
       },
+      "RJCodeAdvance.RJControls/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/RJCodeAdvance.RJControls.dll": {}
+        },
+        "runtime": {
+          "lib/net45/RJCodeAdvance.RJControls.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2938,6 +2947,18 @@
         "newtonsoft.json.10.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
+      ]
+    },
+    "RJCodeAdvance.RJControls/1.0.0": {
+      "sha512": "O+drkZ7lKfMdRRgXKiy2Z/ENhU5Ee2j2mXSzHWwEN2thtRDrWjoUpUvUm9gSFX8susKj1yeVmtMG3qYeNBvmBw==",
+      "type": "package",
+      "path": "rjcodeadvance.rjcontrols/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/RJCodeAdvance.RJControls.dll",
+        "rjcodeadvance.rjcontrols.1.0.0.nupkg.sha512",
+        "rjcodeadvance.rjcontrols.nuspec"
       ]
     },
     "runtime.native.System/4.3.0": {
@@ -6512,7 +6533,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.16",
       "Microsoft.Extensions.Configuration >= 5.0.0",
-      "Microsoft.Extensions.Hosting >= 5.0.0"
+      "Microsoft.Extensions.Hosting >= 5.0.0",
+      "RJCodeAdvance.RJControls >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6581,6 +6603,10 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "RJCodeAdvance.RJControls": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
@@ -6604,5 +6630,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200-preview.22055.15\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"RJCodeAdvance.RJControls 1.0.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "RJCodeAdvance.RJControls",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }
